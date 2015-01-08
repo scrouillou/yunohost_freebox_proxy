@@ -1,8 +1,8 @@
 #!/bin/bash
 
-domain=$(sudo yunohost app setting APP_NAME domain)
+domain=$(sudo yunohost app setting freebox domain)
 
-sudo rm /etc/nginx/conf.d/$domain.d/APP_NAME.conf
+sudo rm /etc/nginx/conf.d/$domain.d/freebox.conf
 
 sudo service nginx reload
 sudo yunohost app ssowatconf 
