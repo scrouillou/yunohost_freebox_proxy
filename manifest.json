@@ -1,29 +1,29 @@
 {
-  "name": "ReverseProxy",
-  "id": "reverseProxy",
+  "name": "APP_NAME",
+  "id": "APP_NAME",
   "description": {
-    "en": "Access to another service",
-    "fr": "Accès à un autre service"
+    "en": "Access to APP_NAME",
+    "fr": "Accès à un APP_NAME"
   },
   "developer": {
-    "name": "lunarok",
-    "email": "cedric@wayang.fr",
-    "url": "http://www.wayang.fr"
+    "name": "Clément scrouillou Vannier",
+    "email": "clement@vannier.pro",
+    "url": "http://yunohost.org"
   },
-  "multi_instance": "true",
+  "multi_instance": "false",
   "arguments": {
     "install": [
       {
         "name": "domain",
         "ask": {
-          "en": "Choose a domain for ReverseProxy"
+          "en": "Choose a domain for APP_NAME"
         },
         "example": "domain.org"
       },
       {
         "name": "path",
         "ask": {
-          "en": "Choose a path for ReverseProxy"
+          "en": "Choose a path for APP_NAME"
         },
         "example": "/",
         "default": "/"
@@ -31,7 +31,7 @@
       {
         "name": "server",
         "ask": {
-          "en": "Choose IP where ReverseProxy is installed"
+          "en": "Choose IP where APP_NAME is installed"
         },
         "example": "127.0.0.1",
         "default": "127.0.0.1"
