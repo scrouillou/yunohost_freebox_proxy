@@ -1,9 +1,9 @@
 {
-  "name": "APP_NAME",
-  "id": "APP_NAME",
+  "name": "Freebox",
+  "id": "Freebox",
   "description": {
-    "en": "Access to APP_NAME",
-    "fr": "Accès à un APP_NAME"
+    "en": "Access to Freebox",
+    "fr": "Accès à un Freebox"
   },
   "developer": {
     "name": "Clément scrouillou Vannier",
@@ -16,14 +16,14 @@
       {
         "name": "domain",
         "ask": {
-          "en": "Choose a domain for APP_NAME"
+          "en": "Choose a domain for Freebox"
         },
         "example": "domain.org"
       },
       {
         "name": "path",
         "ask": {
-          "en": "Choose a path for APP_NAME"
+          "en": "Choose a path for Freebox"
         },
         "example": "/",
         "default": "/"
@@ -31,7 +31,7 @@
       {
         "name": "server",
         "ask": {
-          "en": "Choose IP where APP_NAME is installed"
+          "en": "Choose IP where Freebox is installed"
         },
         "example": "127.0.0.1",
         "default": "127.0.0.1"
