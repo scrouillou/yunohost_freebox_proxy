@@ -5,7 +5,7 @@ domain=$1
 path=$2
 ip=$3
 
-sudo yunohost app checkurl $domain$path -a openwrt
+sudo yunohost app checkurl $domain$path -a $path
 if [[ ! $? -eq 0 ]]; then
   exit 1
 fi
