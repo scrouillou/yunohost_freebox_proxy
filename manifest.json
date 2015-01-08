@@ -1,29 +1,29 @@
 {
-  "name": "OpenWRT",
-  "id": "openwrt",
+  "name": "ReverseProxy",
+  "id": "reverseProxy",
   "description": {
-    "en": "Access to OpenWRT",
-    "fr": "Accès à OpenWRT "
+    "en": "Access to another service",
+    "fr": "Accès à un autre service"
   },
   "developer": {
     "name": "lunarok",
     "email": "cedric@wayang.fr",
     "url": "http://www.wayang.fr"
   },
-  "multi_instance": "false",
+  "multi_instance": "true",
   "arguments": {
     "install": [
       {
         "name": "domain",
         "ask": {
-          "en": "Choose a domain for OpenWRT"
+          "en": "Choose a domain for ReverseProxy"
         },
         "example": "domain.org"
       },
       {
         "name": "path",
         "ask": {
-          "en": "Choose a path for OpenWRT"
+          "en": "Choose a path for ReverseProxy"
         },
         "example": "/",
         "default": "/"
@@ -31,7 +31,7 @@
       {
         "name": "server",
         "ask": {
-          "en": "Choose IP where OpenWRT is installed"
+          "en": "Choose IP where ReverseProxy is installed"
         },
         "example": "127.0.0.1",
         "default": "127.0.0.1"
