@@ -33,8 +33,8 @@
         "ask": {
           "en": "Choose IP where Freebox is installed"
         },
-        "example": "127.0.0.1",
-        "default": "127.0.0.1"
+        "example": "192.168.1.254",
+        "default": "192.168.1.254"
       }
     ]
   }
