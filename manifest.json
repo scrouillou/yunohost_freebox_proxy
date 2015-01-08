@@ -6,8 +6,8 @@
     "fr": "Accès à un Freebox"
   },
   "developer": {
-    "name": "Clément scrouillou Vannier",
-    "email": "clement@vannier.pro",
+    "name": "scrouillou",
+    "email": "scrouillou",
     "url": "http://yunohost.org"
   },
   "multi_instance": "false",
