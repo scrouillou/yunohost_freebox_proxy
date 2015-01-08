@@ -1,8 +1,8 @@
 #!/bin/bash
 
-domain=$(sudo yunohost app setting openwrt domain)
+domain=$(sudo yunohost app setting APP_NAME domain)
 
-sudo rm /etc/nginx/conf.d/$domain.d/openwrt.conf
+sudo rm /etc/nginx/conf.d/$domain.d/APP_NAME.conf
 
 sudo service nginx reload
 sudo yunohost app ssowatconf 
