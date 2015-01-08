@@ -1,14 +1,14 @@
 #!/bin/bash
 
 # Retrieve arguments
-domain=$(sudo yunohost app setting APP_NAME domain)
-path=$(sudo yunohost app setting APP_NAME path)
+domain=$(sudo yunohost app setting freebox domain)
+path=$(sudo yunohost app setting freebox path)
 
 # Remove trailing "/" for next commands
 path=${path%/}
 
 # Configure Nginx and reload
 sed -i "s@PATHTOCHANGE@$path@g" ../conf/nginx.conf
-sudo cp ../conf/nginx.conf /etc/nginx/conf.d/$domain.d/APP_NAME.conf
+sudo cp ../conf/nginx.conf /etc/nginx/conf.d/$domain.d/freebox.conf
 sudo service nginx reload
 
