@@ -9,8 +9,5 @@ yunohost_reverse_proxy
 
 It's creating a reverse proxy configuration.
 
-More information about Freebox :
-https://openwrt.org/
-
 More information about the Yunohost App :
 https://doc.yunohost.org/app_openwrt
